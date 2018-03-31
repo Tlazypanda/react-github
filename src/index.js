@@ -55,7 +55,7 @@ this.setState(
 						}
 
 fetchUser(username)
-{let url='https://api.github.com/users/${username}';
+{let url='https://api.github.com/users/'+username;
 this.fetchApi(url);
 
 }
